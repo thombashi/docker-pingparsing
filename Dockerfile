@@ -4,7 +4,7 @@ LABEL maintainer="Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>"
 RUN apt-get update && apt-get install -y --no-install-recommends \
     iputils-ping \
     && rm -rf /var/lib/apt/lists/* \
-    && pip install pingparsing==0.13.6
+    && pip install pingparsing==0.13.7
 
 ENTRYPOINT ["pingparsing"]
 CMD ["-h"]
