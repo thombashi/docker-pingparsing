@@ -4,6 +4,10 @@ Docker image for [pingparsing]( https://github.com/thombashi/pingparsing )
 
 # Example Usage
 ```
+docker pull thombashi/pingparsing
+```
+
+```
 $ docker run thombashi/pingparsing 1.1.1.1 8.8.8.8 --deadline 30
 {
     "8.8.8.8": {
