@@ -36,5 +36,5 @@ $ docker run thombashi/pingparsing 1.1.1.1 8.8.8.8 --deadline 30
 ```
 
 # Reference
-- [pingparsing]( https://github.com/thombashi/pingparsing )
+- [pingparsing documentation]( https://pingparsing.rtfd.io/ )
 - [Dockerfile]( https://github.com/thombashi/docker-pingparsing/blob/master/Dockerfile )
